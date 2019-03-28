@@ -3,6 +3,17 @@
 	width:112px;
 	height:47px;
 	border-bottom:5px solid black;
+	margin-right:500px;
+}
+
+a:link, a:visited{
+	text-decoration: underline;
+	text-decoration-color: red;
+	color: black;
+}
+
+a:hover, a:active{
+
 }
 body{
 	margin-left:30px;
