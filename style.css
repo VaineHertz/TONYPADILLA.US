@@ -1,6 +1,6 @@
 @media screen and (min-width:900px){
 	.center-line1{
-		margin:auto;
+		margin-bottom:20px;
 		display:inline-block;	
 		margin-left: 90px;
 		width:200px;
@@ -9,6 +9,7 @@
 	}
 	.center-line2{
 		display:inline-block;
+		margin-bottom:20px;
 		margin-left: 10px;
 		width:5px;
 		height:47px;
@@ -16,6 +17,7 @@
 	}
 	.center-line3{
 		display:inline-block;
+		margin-bottom:20px;
 		margin-left: 10px;
 		width:200px;
 		height:47px;
