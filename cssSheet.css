@@ -1,9 +1,26 @@
-.line{
-	float:right;
-	width:112px;
-	height:47px;
-	border-bottom:5px solid black;
-	margin-right:500px;
+@media screen and (min-width:900px){
+	.center-line1{
+		margin:auto;
+		display:inline-block;	
+		margin-left: 90px;
+		width:200px;
+		height:47px;
+		border-bottom:5px solid black;
+	}
+	.center-line2{
+		display:inline-block;
+		margin-left: 10px;
+		width:5px;
+		height:47px;
+		border-bottom:5px solid black;
+	}
+	.center-line3{
+		display:inline-block;
+		margin-left: 10px;
+		width:200px;
+		height:47px;
+		border-bottom:5px solid black;
+	}
 }
 
 a:link, a:visited{
@@ -13,7 +30,8 @@ a:link, a:visited{
 }
 
 a:hover, a:active{
-
+	color: #dbdbdb;
+	text-decoration-color: #dbdbdb;
 }
 body{
 	margin-left:30px;
@@ -22,9 +40,10 @@ body{
 	font: bold 74px bahnschrift;
 }
 .info{
+	float:right;
 	font: 26px bahnschrift;
 	text-align: right;
-	margin-top:-170px;
+	margin-top:-85px;
 }
 
 .row{
