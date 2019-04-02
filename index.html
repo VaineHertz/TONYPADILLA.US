@@ -17,12 +17,19 @@
 		</div>
         <div class="row">
             <div class="column">
-                <a><img src="ART/1.jpg" /></a>
-                <a><img src="ART/2.jpg" /></a>
-                <a><img src="ART/3.png" /></a>
-                <a><img src="ART/4.png" /></a>
-                <a><img src="ART/5.png" /></a>
+                <a><img id="img1" src="ART/1.jpg" alt="Couple" /></a>
+                <a><img id="img2" src="ART/2.jpg" alt="Self Portrait"/></a>
+                <a><img id="img3" src="ART/3.png" alt="Pigsy"/></a>
+                <a><img id="img4" src="ART/4.png" alt="A blue Rat Cat with Christian Molina's coloring"/></a>
+                <a><img id="img5" src="ART/5.png" alt="Wolf sketch"/></a>
             </div>
         </div>
+        <div id="modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="activeImg">
+            <div id="caption"></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="modal.js"></script>
 	</body>
 </html>
