@@ -105,7 +105,7 @@ body{
   margin: auto;
   margin-top: -100px;
   display: block;
-  width: 60%;
+  width: 40%;
   max-width: 700px;
 }
 
@@ -158,5 +158,10 @@ body{
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
   }
 }
