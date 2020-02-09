@@ -2,7 +2,7 @@
 	.center-line1{
 		margin-bottom:20px;
 		display:inline-block;	
-		margin-left: 90px;
+		margin-left: 0px;
 		width:200px;
 		height:47px;
 		border-bottom:5px solid white;
@@ -40,14 +40,14 @@ body{
 	color: #e8e3dc;
 }
 .myName{
-	font: bold 74px bahnschrift
 	color: #e8e3dc;
+	font: bold 74px bahnschrift
 }
 .info{
 	float: right;
 	font: 26px bahnschrift;
 	text-align: right;
-	margin-top: -85px;
+	margin-top: -95px;
 	color: #e8e3dc
 }
 
