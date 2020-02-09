@@ -69,11 +69,12 @@ body{
 	transition: 0.3s;
 	margin-top: 8px;
 	vertical-align: middle;
-	height: 300px;
+	height: 450px;
 	width: auto;
-	border:35px solid transparent;
+	border:50px solid transparent;
 	border-image: url(ART/leaves.png) 100% round;
-	border-image-slice: 800;
+	border-image-slice: 600;
+	border-image-width: 45px;
 }
 
 .column img:hover{
