@@ -35,9 +35,11 @@ a:hover, a:active{
 	color: #dbdbdb;
 	text-decoration-color: #dbdbdb;
 }
+
 body{
 	margin-left:30px;
 }
+
 .myName{
 	color: #ffdee2;
 	font: bold 74px bahnschrift
@@ -54,13 +56,12 @@ body{
 	margin-top:50px;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 4px;
+	padding: 0 0px;
 }
 
 .column{
-	flex: 33%
-	max-width: 33%;
-	padding: 0 4px;
+	flex: 33%;
+	padding: 0 0px;
 }
 
 .column img{
@@ -70,6 +71,9 @@ body{
 	vertical-align: middle;
 	height: 300px;
 	width: auto;
+	border:35px solid transparent;
+	border-image: url(ART/leaves.png) 100% round;
+	border-image-slice: 800;
 }
 
 .column img:hover{
