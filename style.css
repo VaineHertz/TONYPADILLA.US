@@ -5,7 +5,7 @@
 		margin-left: 90px;
 		width:200px;
 		height:47px;
-		border-bottom:5px solid black;
+		border-bottom:5px solid white;
 	}
 	.center-line2{
 		display:inline-block;
@@ -13,7 +13,7 @@
 		margin-left: 10px;
 		width:5px;
 		height:47px;
-		border-bottom:5px solid black;
+		border-bottom:5px solid white;
 	}
 	.center-line3{
 		display:inline-block;
@@ -21,14 +21,14 @@
 		margin-left: 10px;
 		width:200px;
 		height:47px;
-		border-bottom:5px solid black;
+		border-bottom:5px solid white;
 	}
 }
 
 a:link, a:visited{
 	text-decoration: underline;
 	text-decoration-color: red;
-	color: black;
+	color: white;
 }
 
 a:hover, a:active{
@@ -37,15 +37,18 @@ a:hover, a:active{
 }
 body{
 	margin-left:30px;
+	color: white;
 }
 .myName{
-	font: bold 74px bahnschrift;
+	font: bold 74px bahnschrift
+	color: white;
 }
 .info{
-	float:right;
+	float: right;
 	font: 26px bahnschrift;
 	text-align: right;
-	margin-top:-85px;
+	margin-top: -85px;
+	color: white
 }
 
 .row{
@@ -115,7 +118,7 @@ body{
   width: 80%;
   max-width: 700px;
   text-align: center;
-  color: #ccc;
+  color: white;
   padding: 10px 0;
   height: 150px;
 }
