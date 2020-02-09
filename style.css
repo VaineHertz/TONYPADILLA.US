@@ -28,7 +28,7 @@
 a:link, a:visited{
 	text-decoration: underline;
 	text-decoration-color: red;
-	color: white;
+	color: #e8e3dc;
 }
 
 a:hover, a:active{
@@ -37,18 +37,18 @@ a:hover, a:active{
 }
 body{
 	margin-left:30px;
-	color: white;
+	color: #e8e3dc;
 }
 .myName{
 	font: bold 74px bahnschrift
-	color: white;
+	color: #e8e3dc;
 }
 .info{
 	float: right;
 	font: 26px bahnschrift;
 	text-align: right;
 	margin-top: -85px;
-	color: white
+	color: #e8e3dc
 }
 
 .row{
@@ -118,7 +118,7 @@ body{
   width: 80%;
   max-width: 700px;
   text-align: center;
-  color: white;
+  color: #e8e3dc;
   padding: 10px 0;
   height: 150px;
 }
