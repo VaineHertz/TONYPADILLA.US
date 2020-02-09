@@ -5,7 +5,7 @@
 		margin-left: 0px;
 		width:200px;
 		height:47px;
-		border-bottom:5px solid white;
+		border-bottom:5px solid #f7b0b9;
 	}
 	.center-line2{
 		display:inline-block;
@@ -13,7 +13,7 @@
 		margin-left: 10px;
 		width:5px;
 		height:47px;
-		border-bottom:5px solid white;
+		border-bottom:5px solid #f7b0b9;
 	}
 	.center-line3{
 		display:inline-block;
@@ -21,14 +21,14 @@
 		margin-left: 10px;
 		width:200px;
 		height:47px;
-		border-bottom:5px solid white;
+		border-bottom:5px solid #f7b0b9;
 	}
 }
 
 a:link, a:visited{
 	text-decoration: underline;
-	text-decoration-color: red;
-	color: #e8e3dc;
+	text-decoration-color: #f7b0b9;
+	color: #ffdee2;
 }
 
 a:hover, a:active{
@@ -39,7 +39,7 @@ body{
 	margin-left:30px;
 }
 .myName{
-	color: #e8e3dc;
+	color: #ffdee2;
 	font: bold 74px bahnschrift
 }
 .info{
